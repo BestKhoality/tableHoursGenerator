@@ -1,0 +1,103 @@
+<html>
+<head>
+</head>
+
+<h2>Hours Template with HTML Table</h2>
+<body>
+
+<script src="tableHoursGenerator.js"></script>
+
+<table>
+
+    <tr><td><b> Lobby Hours</b> </td></tr>
+
+    <tr>
+        <td>Monday:</td>
+        <td><input type="text" id="monLob" placeholder="Input Hours Here"></td>
+    </tr>
+
+    <tr>
+        <td>Tuesday:</td>
+        <td><input type="text" id="tuesLob" placeholder="Input Hours Here"></td>
+    </tr>
+
+    <tr>
+        <td>Wednesday:</td>
+        <td><input type="text" id="wedsLob" placeholder="Input Hours Here"></td>
+    </tr>
+
+    <tr>
+        <td>Thursday:</td>
+        <td><input type="text" id="thursLob" placeholder="Input Hours Here"></td>
+    </tr>
+
+    <tr>
+        <td>Friday:</td>
+        <td><input type="text" id="friLob" placeholder="Input Hours Here"></td>
+    </tr>
+
+    <tr>
+        <td>Saturday:</td>
+        <td><input type="text" id="satLob" placeholder="Input Hours Here"></td>
+    </tr>
+
+    <tr>
+        <td>Sunday:</td>
+        <td><input type="text" id="sunLob" placeholder="Input Hours Here"></td>
+    </tr>
+
+    <tr></tr>
+    <tr>
+        <td><b>Drive Thru Hours<b></td>
+    </tr>
+
+    <tr>
+        <td>Monday:</td>
+        <td><input type="text" id="monDrive" placeholder="Input Hours Here"></td>
+    </tr>
+
+    <tr>
+        <td>Tuesday:</td>
+        <td><input type="text" id="tuesDrive" placeholder="Input Hours Here"></td>
+    </tr>
+
+    <tr>
+        <td>Wednesday:</td>
+        <td><input type="text" id="wedsDrive" placeholder="Input Hours Here"></td>
+    </tr>
+
+    <tr>
+        <td>Thursday:</td>
+        <td><input type="text" id="thursDrive" placeholder="Input Hours Here"></td>
+    </tr>
+
+    <tr>
+        <td>Friday:</td>
+        <td><input type="text" id="friDrive" placeholder="Input Hours Here"></td>
+    </tr>
+
+    <tr>
+        <td>Saturday:</td>
+        <td><input type="text" id="satDrive" placeholder="Input Hours Here"></td>
+    </tr>
+
+    <tr>
+        <td>Sunday:</td>
+        <td><input type="text" id="sunDrive" placeholder="Input Hours Here"></td>
+    </tr>
+</table>
+
+<table>
+<br>
+<tr>
+<td><button title="Sets all Sat & Sun to 'Closed'" onclick="closeWeekends();">Closed on Weekends</button></td>
+<td><button title="Enter a time & set it for all weekdays" onclick="setWeekDays();">Set Weekday Hours</button></td>
+<td><button title="Clear all input fields" onclick="clearAll();">Clear All</button></td>
+<td><button title="Generates the code with populated data in each field" onclick="generateHTML();">Generate HTML Code</button></td>
+</tr>
+
+<table><tr>*Hover mouse over buttons for tool-tips!</tr></table>
+</table>
+</body>
+
+</html>
